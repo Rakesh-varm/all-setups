@@ -23,3 +23,4 @@ kops update cluster --name rahams.k8s.local --yes --admin
 # To update edited node cluster :kops update cluster --name=rakesh.k8s.local --yes
 # To see changes : kops rolling -update cluster
  # edit your master instance group: kops edit ig --name=rakesh.k8s.local master-us-east-1a
+ # To delete cluster : kops delete cluster --name rakesh.k8s.local --yes 
