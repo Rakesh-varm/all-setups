@@ -20,4 +20,5 @@ kops update cluster --name rahams.k8s.local --yes --admin
 #  list clusters with: kops get cluster
 # edit this cluster with: kops edit cluster rakesh.k8s.local
 #  edit your node instance group: kops edit ig --name=rakesh.k8s.local nodes-us-east-1a
+# To update edited node cluster :kops update cluster --name=rakesh.k8s.local --yes
  # edit your master instance group: kops edit ig --name=rakesh.k8s.local master-us-east-1a
